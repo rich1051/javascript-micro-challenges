@@ -39,7 +39,8 @@ console.log ('The first and last numbers of the array add up to (expect 112):', 
 //PROBLEM #4: Loops, Arrays, and Concatenation
 let sodaArray = ['Coke', 'Fanta', 'Dr. Pepper', 'Mountain Dew'];
 
-//I do NOT know why this code works, I got help on Google:
+//I do NOT know why the below code works, I got help on Google
+//Update: Learned about the .slice and .join techniques, I get it!
 function sodaFunction(sodaArray, numberValue) {
     return sodaArray.slice(numberValue).join(' ');
 }
